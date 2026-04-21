@@ -18,3 +18,7 @@ class Solution:
             res = max(res, right - left + 1)
 
         return res
+    
+#Need ≤ k changes → 👍 allowed
+#Need > k changes → ❌ shrink
+            
